@@ -87,14 +87,17 @@ h2 {
   box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.6);
   border-radius: 10px;
   border: 1px solid #eee;
-  max-width: 200px;
+  max-width: 250px;
+  padding: 16px;
 }
-.card p {
+.card a {
   text-align: center;
 }
 .card img {
-  width: 200px;
-  height: 250px;
+  width: 250px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
 #quotes {
